@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+
+# Obsidian local plugin data may contain API keys.
+data.json
+**/data.json
+
+# Local editor and system files.
+.idea/
+.vscode/
+
+# Release archives generated locally.
+*.zip
