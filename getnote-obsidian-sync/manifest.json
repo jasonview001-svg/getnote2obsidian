@@ -1,0 +1,10 @@
+{
+  "id": "getnote-obsidian-sync",
+  "name": "getnote2obsidian",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Sync GetNote notes into Obsidian with visual history and local configuration.",
+  "author": "DONGCHAO",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
