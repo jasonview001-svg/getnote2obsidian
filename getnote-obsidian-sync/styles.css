@@ -1,0 +1,140 @@
+.getnote-sync-view {
+  padding: 16px;
+  overflow: auto;
+}
+
+.getnote-sync-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.getnote-sync-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.getnote-sync-subtitle {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.getnote-sync-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.getnote-sync-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.getnote-sync-card {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--background-secondary);
+}
+
+.getnote-sync-card-label {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.getnote-sync-card-value {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.getnote-sync-section {
+  margin-top: 18px;
+}
+
+.getnote-sync-section-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.getnote-sync-history-item,
+.getnote-sync-detail-item {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: var(--background-primary-alt);
+}
+
+.getnote-sync-history-main,
+.getnote-sync-detail-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.getnote-sync-history-meta,
+.getnote-sync-detail-meta {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-top: 4px;
+  word-break: break-all;
+}
+
+.getnote-sync-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+  background: var(--background-modifier-border);
+}
+
+.getnote-sync-badge-success {
+  color: var(--text-success);
+}
+
+.getnote-sync-badge-error {
+  color: var(--text-error);
+}
+
+.getnote-sync-badge-muted {
+  color: var(--text-muted);
+}
+
+.getnote-sync-empty {
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 12px;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: 10px;
+}
+
+.getnote-sync-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--background-modifier-border);
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.getnote-sync-progress-bar {
+  height: 100%;
+  width: 0;
+  background: var(--interactive-accent);
+  transition: width 0.2s ease;
+}
+
+.getnote-sync-setting-warning {
+  color: var(--text-warning);
+  font-size: 12px;
+  margin-top: 4px;
+}
